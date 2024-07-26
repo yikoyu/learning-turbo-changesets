@@ -1,0 +1,38 @@
+{
+  "name": "@yikoyu-learning/changeset-turbo-ui",
+  "type": "module",
+  "version": "0.1.0",
+  "private": false,
+  "packageManager": "pnpm@8.15.8",
+  "description": "yikoyu's learning changeset and turbo",
+  "author": "yikoyu<2282373181@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yikoyu/learning-changeset-turbo/packages/ui"
+  },
+  "keywords": [
+    "test1"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./*": {
+      "import": "./dist/*.js",
+      "require": "./dist/*.cjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "README.md",
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "tsup --config ../../tsup.config.ts --watch",
+    "build": "tsup --minify --clean --dts --config ../../tsup.config.ts"
+  }
+}
