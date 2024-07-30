@@ -27,12 +27,15 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "README.md",
+    "README.md 1",
     "dist",
     "package.json"
   ],
   "scripts": {
     "dev": "tsup --config ../../tsup.config.ts --watch",
     "build": "tsup --minify --clean --dts --config ../../tsup.config.ts"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7"
   }
 }
