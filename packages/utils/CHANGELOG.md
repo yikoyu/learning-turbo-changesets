@@ -1,5 +1,11 @@
 # @yikoyu-learning/changeset-turbo-utils
 
+## 0.1.2
+
+### Patch Changes
+
+- [`206403a`](https://github.com/yikoyu/learning-turbo-changesets/commit/206403a19a6497f837f8f44d1418c28baa3f3ae6) Thanks [@yikoyu](https://github.com/yikoyu)! - bump version
+
 ## 0.1.1
 
 ### Patch Changes
