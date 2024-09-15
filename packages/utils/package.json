@@ -36,6 +36,6 @@
     "build": "tsup --minify --clean --dts --config ../../tsup.config.ts"
   },
   "dependencies": {
-    "dayjs": "^1.11.12"
+    "dayjs": "^1.11.13"
   }
 }
