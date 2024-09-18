@@ -39,5 +39,6 @@ jobs:
           version: pnpm changeset version
           publish: pnpm changeset publish
         env:
+          NPM_CONFIG_PROVENANCE: true
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
